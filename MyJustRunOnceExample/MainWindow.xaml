@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyJustRunOnceExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyJustRunOnceExample"
+        mc:Ignorable="d"
+        Title="My Just Run Once Example MainWindow" Height="400" Width="640">
+    <Grid>
+        <Button Content="Close" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Click="Button_Close_Click"/>
+        <Label Content="Mutex Semaphore Name:" HorizontalAlignment="Left" Margin="145,109,0,0" VerticalAlignment="Top"/>
+        <Label Name="labelMutexName"  Content="Label" HorizontalAlignment="Left" Margin="145,135,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
